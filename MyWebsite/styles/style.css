@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --main-color: #e84242;
+    --black-color: #121212;
+    --border:0.1rem solid rgba(255,255,255,0.4);
+}
+ /* HTML STARTS */
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--main-color);
+}
+
+section{
+    padding: 3.5rem 10%;
+}
+
+*{  
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+.btn{
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.725);
+    padding: 16px 25px;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: var(--black-color);
+}
+
+/* header start*/
+.header .logo img{
+    height: 120px;
+    margin-left: -50px;
+}
+.header{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 3rem 10%;
+    border-radius: 30rem;
+    box-shadow: 3px 3px 17px 0px rgba(0,0,0,0.9);
+    position: sticky;
+    top: 1.5rem;
+    z-index: 1000px;
+
+}
+
+.header .navbar a {
+    font-size: 2.4rem;
+    margin-left: 16px;
+    color: var(--black-color);
+    border-bottom: 2px solid transparent;
+}
+.header .navbar .active,
+.header .navbar a:hover{
+    border-color: var(--main-color);
+    padding-bottom: 0.5rem;
+    transition: 0.12s ease-out;
+}
+.header div{
+    margin-right: -50px;
+  
+}
+
+.header .buttons button{
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 2.4rem;
+    margin-left: 1.25rem;
+}
+
+/*! Header End */
+
+/* Home Start */
+.home{
+    min-height: 100vh;
+    background: url(../images/home.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -18.5rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.home .content{
+    max-width: 50rem;
+    
+}
+
+.home .content h3{
+    font-size: 60px;
+    color: #fff;
+    line-height: 60px;
+
+}
+
+.home .content p{
+    font-size: 2rem;
+    line-height: 1.4;
+    padding: 1rem 0;
+    color: #ccc;
+    margin-bottom: 30px;
+
+}
+
+/* Home End */
+
+/* Menu Section Starts*/
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+.menu .box-container .box img{
+    width: 100%;
+    object-fit: cover;
+ }
+ 
+/* Menu Ends */
