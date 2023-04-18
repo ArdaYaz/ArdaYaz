@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ArdaYaz
 - 👀 I’m interested in coding
-- 🌱 I’m currently learning html,css,js
+- 🌱 I’m currently learning Unreal Engine
 - 💞️ I’m looking to collaborate on world peace
 - 📫 How to reach me ...
 
